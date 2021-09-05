@@ -9,7 +9,7 @@
                 'cache' => '/path/to/compilation_cache',
                 'auto_reload' => true,
             ]);
-            $template = $twig->load('login.html');
+            $template = $twig->load('t_login.html');
             $parametro['error'] = $_SESSION['msg_error'] ?? null;
 
             return $template->render($parametro);

@@ -7,7 +7,7 @@ class AdminController {
             'cache' => '/path/to/compilation_cache',
             'auto_reload' => true,
         ]);
-        $template = $twig->load('acesso.html');
+        $template = $twig->load('t_acesso.html');
         $parametro['usuario'] = $_SESSION['usr']['usuario'];
      
         return $template->render($parametro);
