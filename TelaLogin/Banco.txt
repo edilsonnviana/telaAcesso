@@ -1,0 +1,21 @@
+
+login adm senha 12345
+
+
+----Banco de dados---
+
+
+
+-- Banco de dados: `bd_sistema`
+
+-- Estrutura da tabela `usuario`
+
+CREATE TABLE `usuario` (
+  `login` varchar(30) NOT NULL,
+  `senha` varchar(8) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+INSERT INTO `usuario` (`login`, `senha`) VALUES
+('adm', '12345');
+
