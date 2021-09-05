@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065A3;
+}
+.form-login{
+    flex-basis: 450px;
+    
+}
+.card-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: #F5FFFA;
+}
+.card-footer{
+    justify-content: flex-end;
+    display: flex;
+    background-color: #F5FFFA;
+}
+.msg_error{
+	color:#FF6D6D;
+	display: flex;
+	justify-content: center;
+}
